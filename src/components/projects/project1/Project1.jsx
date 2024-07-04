@@ -13,10 +13,10 @@ const Project1 = () => {
                 <div className='flex flex-col lg:flex-row justify-between gap-16 lg:gap-24 mt-8'>
                     <div className='relative w-11/12 m-auto'>
                         <div>
-                            <Image src={"/Project1/project1(1).png"} height={1400} width={1400} alt='project1' className='w-11/12 lg:w-full rounded-md object-cover object-top border-2 lg:border-3 border-[#B6BBC4]'></Image>
+                            <Image src={"/project1/project1(1).png"} height={1400} width={1400} alt='project1' className='w-11/12 lg:w-full rounded-md object-cover object-top border-2 lg:border-3 border-[#B6BBC4]'></Image>
                         </div>
                         <div className='drop-shadow-xl'>
-                            <Image src={"/Project1/project1(6).png"} height={800} width={800} alt='project1' className='w-2/3 md:w-1/2 lg:w-3/4 rounded-md absolute -bottom-8 -right-2 lg:-right-8 object-cover object-top border-2 lg:border-3 border-[#F0ECE5]'></Image>
+                            <Image src={"/project1/project1(6).png"} height={800} width={800} alt='project1' className='w-2/3 md:w-1/2 lg:w-3/4 rounded-md absolute -bottom-8 -right-2 lg:-right-8 object-cover object-top border-2 lg:border-3 border-[#F0ECE5]'></Image>
                         </div>
                     </div>
 
