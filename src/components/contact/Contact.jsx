@@ -1,5 +1,6 @@
 import React from 'react';
 import Email from '../email/Email';
+import OtherContact from '../otherContact/OtherContact';
 
 const Contact = () => {
     return (
@@ -9,10 +10,9 @@ const Contact = () => {
                 <h2 className='text-5xl font-semibold my-3'>CONTACT</h2>
             </div>
 
-            <div>
-                <div>
-                    <Email></Email>
-                </div>
+            <div className='flex flex-col lg:flex-row w-full justify-between gap-10 items-center lg:items-start'>
+                <Email></Email>
+                <OtherContact></OtherContact>
             </div>
         </div>
     );

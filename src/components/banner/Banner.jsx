@@ -10,7 +10,7 @@ const Banner = () => {
     return (
         <div className='px-4 md:py-0 mt-32 md:mt-16 flex lg:px-[5%] xl:px-[8%] flex-col-reverse items-center gap-4 md:flex-row md:justify-between md:min-h-[680px] xl:min-h-[900px]' id="Home">
             <div className='flex flex-col items-center md:items-start mt-4'>
-                <h2>I'm</h2>
+                <h2>I&apos;m</h2>
                 <h2 className='text-4xl md:text-5xl lg:text-6xl font-bold'>Kazi Ehsanul Haque</h2>
                 <h2 className='mt-4'>MERN Developer</h2>
 

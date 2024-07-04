@@ -17,7 +17,7 @@ export default function Nav() {
 
     return (
         <nav className="text-2xl bg-[rgb(240,236,229)] w-full">
-            <div className="flex gap-2 lg:justify-between font-bold items-center py-4">
+            <div className="flex gap-2 lg:justify-between font-bold items-center py-2 lg:py-4">
                 <div className="lg:hidden flex items-center">
                     {
                         isOpen ?

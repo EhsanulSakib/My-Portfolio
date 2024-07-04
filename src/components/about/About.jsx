@@ -10,7 +10,7 @@ const About = () => {
             </div>
             <div className='mt-8 grid grid-cols-1 gap-20 text-lg md:text-xl lg:text-2xl xl:text-3xl'>
                 <div className='text-justify'>
-                    <p>I'm <span className='font-bold'>Kazi Ehsanul Haque</span>, a <span className='font-bold'>MERN stack Web Developer</span> with expertise includes HTML, CSS, JavaScript, React, Node.js, Express, and MongoDB. As a graduated fresher, I am actively seeking job opportunities to kickstart my career and make a meaningful impact.</p>
+                    <p>I&apos;m <span className='font-bold'>Kazi Ehsanul Haque</span>, a <span className='font-bold'>MERN stack Web Developer</span> with expertise includes HTML, CSS, JavaScript, React, Node.js, Express, and MongoDB. As a graduated fresher, I am actively seeking job opportunities to kickstart my career and make a meaningful impact.</p>
                 </div>
                 <div>
                     <Accordion></Accordion>
