@@ -6,7 +6,7 @@ const Project1 = () => {
     return (
         <div>
             <div className='border-b-2 border-[#161A30]'>
-                <h2 className='text-3xl font-semibold my-2'>Nexura Building</h2>
+                <h2 className='text-4xl font-semibold my-2'>Nexura Building</h2>
             </div>
 
             <div>
@@ -23,11 +23,11 @@ const Project1 = () => {
                     <div className='w-full'>
                         <div>
                             <h2 className='font-bold mb-2'>Description:</h2>
-                            <p className='text-justify'>A Building Management Website, where a user can see the flats information of the building and request for rent. If admin approved his request the user will be registered as member and get the flat as rent. By using the website all members can pay the monthly rent of their apartment.</p>
+                            <p className='text-justify'>A <span className='font-semibold'>Building Management Website</span>, where a user can see the flats information of the building and request for rent. If admin approved his request the user will be registered as member and get the flat as rent. By using the website all members can pay the monthly rent of their apartment.</p>
 
                             <div className='mt-4 lg:mt-8'>
                                 <h2 className='font-bold mb-2'>Features: </h2>
-                                <ul className='ml-8 grid grid-cols-2 gap-x-6 gap-y-2'>
+                                <ul className='ml-8 grid grid-cols-2 gap-x-8 gap-y-2'>
                                     <li className=' list-disc'>Dark Mode</li>
 
                                     <li className=' list-disc'>Authentication</li>
@@ -39,8 +39,6 @@ const Project1 = () => {
                                     <li className=' list-disc'>Member Dashboard</li>
 
                                     <li className=' list-disc'>Admin Dashboard</li>
-
-                                    <li className=' list-disc'>Dark Mode</li>
 
                                     <li className=' list-disc'>Announcements</li>
 

@@ -1,5 +1,6 @@
 import React from 'react';
 import Project1 from './project1/Project1';
+import Project2 from './project2/Project2';
 
 const Project = () => {
     return (
@@ -8,8 +9,9 @@ const Project = () => {
                 <div className='w-3 bg-[#161A30]'></div>
                 <h2 className='text-5xl font-semibold my-3'>PROJECTS</h2>
             </div>
-            <div className='flex flex-col gap-12 text-lg md:text-xl lg:text-2xl xl:text-3xl '>
+            <div className='flex flex-col gap-12 lg:gap-24 text-lg md:text-xl lg:text-2xl xl:text-3xl '>
                 <Project1></Project1>
+                <Project2></Project2>
             </div>
         </div>
     );
