@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { RiMenu2Line } from "react-icons/ri";
 import { IoMdClose } from "react-icons/io";
 import Dropdown from "../dropdown/Dropdown";
-import Link from "next/link";
+import { Link } from "react-scroll";
 
 export default function Nav() {
     const [isOpen, setIsOpen] = useState(false)
@@ -17,7 +17,7 @@ export default function Nav() {
 
     return (
         <nav className="text-2xl bg-[rgb(240,236,229)] w-full">
-            <div className="mx-4 flex gap-2 lg:justify-between font-bold items-center py-4">
+            <div className="flex gap-2 lg:justify-between font-bold items-center py-4">
                 <div className="lg:hidden flex items-center">
                     {
                         isOpen ?
@@ -34,8 +34,17 @@ export default function Nav() {
 
                 <div className="hidden lg:flex gap-4 font-medium">
                     {
-                        menuItems?.map((item, idx) => <Link key={idx} href={`#${item}`} className='hover:bg-[#31304D] hover:text-[#B6BBC4] hover: duration-300 hover:px-4 hover:py-2 hover:rounded-md'>{item}</Link>)
-                    }
+                        menuItems?.map((item, idx) => <Link
+                            spy={true}
+                            smooth={true}
+                            offset={-100}
+                            duration={500}
+                            to={item}
+                            className='hover:bg-[#31304D] hover:text-[#B6BBC4] hover: duration-300 hover:px-4 hover:py-2 hover:rounded-md cursor-pointer'
+                            key={idx}>
+                            {item}
+                        </Link>
+                        )}
                 </div>
             </div>
 

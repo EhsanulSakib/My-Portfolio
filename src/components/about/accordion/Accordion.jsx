@@ -3,7 +3,7 @@ import React from 'react';
 const Accordion = () => {
     return (
         <div className='mt-8 lg:mt-0'>
-            <div className='flex gap-2 mb-4'>
+            <div className='flex gap-4 mb-4'>
                 <div className='w-2 bg-[rgb(240,236,229)]'>
                 </div>
                 <h2 className='text-2xl md:text-3xl lg:text-4xl font-semibold my-2'>Education</h2>

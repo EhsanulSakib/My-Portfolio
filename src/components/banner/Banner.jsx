@@ -8,7 +8,7 @@ import Resume from "../Resume/Resume";
 
 const Banner = () => {
     return (
-        <div className='px-4 md:py-0 lg:mt-16 flex flex-col-reverse items-center gap-4 md:flex-row md:justify-between md:min-h-[550px] xl:min-h-[900px]' id="Home">
+        <div className='px-4 md:py-0 mt-32 md:mt-16 flex lg:px-[5%] xl:px-[8%] flex-col-reverse items-center gap-4 md:flex-row md:justify-between md:min-h-[680px] xl:min-h-[900px]' id="Home">
             <div className='flex flex-col items-center md:items-start mt-4'>
                 <h2>I'm</h2>
                 <h2 className='text-4xl md:text-5xl lg:text-6xl font-bold'>Kazi Ehsanul Haque</h2>
@@ -23,7 +23,7 @@ const Banner = () => {
                 <Resume></Resume>
             </div>
             <div className="w-full md:w-2/5 bg-gradient-to-tl from-[#31304D] to-[#31304d31] rounded-full">
-                <Image width={1000} height={1000} src="/banner-4.png" alt="Ehsanul Image" className="w-full rounded-full object-cover object-center shadow-sm drop-shadow-xl" />
+                <Image width={1000} height={1000} src="/banner-4.png" alt="Ehsanul Image" className="w-full rounded-full object-cover object-center shadow-sm drop-shadow-xl rotate-3" />
             </div>
         </div>
     );
